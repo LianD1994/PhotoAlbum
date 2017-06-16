@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="122.0" prefWidth="230.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60" fx:controller="controller.createController">
+   <children>
+      <TextField fx:id="title" layoutX="22.0" layoutY="38.0" />
+      <Text layoutX="65.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Album Title" textAlignment="CENTER" wrappingWidth="100.6708984375" />
+      <Button fx:id="createAlbum" onAction="#onCreateButtonClicked" layoutX="83.0" layoutY="77.0" mnemonicParsing="false" text="Create" />
+   </children>
+</AnchorPane>
